@@ -1,0 +1,11 @@
+body {
+    font-size: 16px;
+}
+
+#layout > .container {
+    width: 90%;
+}
+
+#layout > header > nav > .container {
+    width: 90%;
+}
