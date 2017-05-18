@@ -18,6 +18,7 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
             addCssOnPage(changes[key].newValue);
         }
     }
+
 });
 
 chrome.storage.sync.get(url, function(items) {
